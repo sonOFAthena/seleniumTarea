@@ -32,7 +32,9 @@ public class SeleniumPracticeTest {
     }
     
     @BeforeClass
-    public static void setUpClass() {                
+    public static void setUpClass() {       
+        //modificacion
+        System.out.println("Aqui se modifico el codigo");
         System.setProperty("webdriver.chrome.driver","drivers\\chromedriver.exe");             
     }
     
